@@ -5,4 +5,4 @@
  * @LastEditTime: 2021-10-17 16:08:53
  * @Description: TODO
  */
-export { installDemo } from './demo.task'
+export { installDemo } from './demo'

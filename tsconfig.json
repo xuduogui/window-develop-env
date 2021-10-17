@@ -1,0 +1,26 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "rootDir": ".",
+    "baseUrl": ".",
+    "sourceRoot": "./",
+    "outDir": "shells",
+    "lib": ["dom", "ESNext"],
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationDir": "./shells/types"
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
